@@ -1,0 +1,11 @@
+{
+  "name": "php-calculadora",
+  "version": "1.0.0",
+  "description": "Scientific Calculator PHP Project",
+  "devDependencies": {
+    "@vercel/php": "^0.6.0"
+  },
+  "scripts": {
+    "vercel-build": "vercel-php"
+  }
+}
