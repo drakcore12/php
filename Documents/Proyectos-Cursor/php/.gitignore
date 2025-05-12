@@ -1,0 +1,21 @@
+# Ignore system and hidden files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore user-specific files
+*.log
+*.tmp
+
+# Ignore IDE and editor folders
+.vscode/
+.idea/
+.vs/
+
+# Ignore environment and dependency folders
+vendor/
+node_modules/
+.env
+
+# Ignore local configuration
+*.local
