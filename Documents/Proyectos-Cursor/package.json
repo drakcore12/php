@@ -1,8 +1,0 @@
-{
-  "name": "php-project",
-  "version": "1.0.0",
-  "description": "PHP Project with Scientific Calculator",
-  "devDependencies": {
-    "@vercel/php": "^1.0.0"
-  }
-}
