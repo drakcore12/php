@@ -7,8 +7,13 @@
     }
   ],
   "routes": [
-    { "src": "/", "dest": "/php/index.php" },
-    { "src": "/(.*\.php)", "dest": "/php/$1" },
-    { "src": "/(.*)", "dest": "/php/$1" }
+    {
+      "src": "/",
+      "dest": "/php/index.php"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/php/$1"
+    }
   ]
 }
