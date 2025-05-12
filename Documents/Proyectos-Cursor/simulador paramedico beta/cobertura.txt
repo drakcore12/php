@@ -1,0 +1,44 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.1, pytest-8.3.5, pluggy-1.5.0
+rootdir: C:\Users\MIGUEL\Documents\Proyectos-Cursor\simulador paramedico beta
+plugins: cov-6.1.1
+collected 10 items
+
+test_ecg.py .                                                            [ 10%]
+test_ecg_gui.py ..                                                       [ 30%]
+test_hoja_clinica.py ..                                                  [ 50%]
+test_manual_medicamento.py .                                             [ 60%]
+test_ventanas.py ....                                                    [100%]
+
+=============================== tests coverage ================================
+_______________ coverage: platform win32, python 3.13.1-final-0 _______________
+
+Name                             Stmts   Miss  Cover
+----------------------------------------------------
+clases\__init__.py                   0      0   100%
+clases\paciente.py                 118    118     0%
+ecg\__init__.py                      0      0   100%
+ecg\ecg_demo_plot.py                16     16     0%
+ecg\ecg_generator.py               145    143     1%
+ecg\ecg_realtime_gui.py            367    263    28%
+funciones\__init__.py                0      0   100%
+funciones\consulta_paciente.py     155    155     0%
+funciones\evaluador_clinico.py      61     61     0%
+funciones\medicacion.py             66     66     0%
+funciones\signos_vitales.py        105    105     0%
+graficos\__init__.py                 0      0   100%
+main.py                             22     22     0%
+main_tkinter.py                    273    273     0%
+resources.py                         1      0   100%
+test_ecg.py                          9      1    89%
+test_ecg_gui.py                     24      1    96%
+test_hoja_clinica.py                28      1    96%
+test_manual_medicamento.py          33      3    91%
+test_ventanas.py                    71      3    96%
+utils.py                            14      6    57%
+ventana_dosis_medicamento.py        36      0   100%
+ventana_hoja_clinica.py             51      7    86%
+ventana_manual_medicamento.py       25      0   100%
+----------------------------------------------------
+TOTAL                             1620   1244    23%
+============================= 10 passed in 2.16s ==============================
