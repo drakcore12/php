@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sumadora de 5 Números</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+      --form-bg: #f9f9fc;
+      --form-border: var(--php-purple);
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      background-color: var(--bg-light);
+    }
+    .container {
+      background-color: var(--form-bg);
+      border-left: 5px solid var(--form-border);
+      border-radius: 8px;
+      padding: 30px;
+      max-width: 500px;
+      width: 100%;
+      margin: 2rem auto;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .form-title {
+      color: var(--php-dark);
+      text-align: center;
+      margin-bottom: 25px;
+      font-size: 1.8em;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 8px;
+      color: #555;
+      font-weight: 600;
+    }
+    .form-group input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1em;
+      transition: border-color 0.3s ease;
+    }
+    .form-group input[type="number"]:focus {
+      outline: none;
+      border-color: var(--php-purple);
+      box-shadow: 0 0 5px rgba(136, 146, 190, 0.5);
+    }
+    .submit-btn {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      background-color: var(--php-purple);
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .submit-btn:hover {
+      background-color: var(--php-dark);
+    }
+    .navigation {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .btn-volver {
+      color: var(--php-dark);
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    .btn-volver:hover {
+      color: var(--php-purple);
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="form-title">Sumadora de 5 Números</h1>
+    <form action="pagina2.php" method="post">
+      <div class="form-group">
+        <label for="valor1">Valor 1:</label>
+        <input type="number" name="valor1" id="valor1" required>
+      </div>
+
+      <div class="form-group">
+        <label for="valor2">Valor 2:</label>
+        <input type="number" name="valor2" id="valor2" required>
+      </div>
+
+      <div class="form-group">
+        <label for="valor3">Valor 3:</label>
+        <input type="number" name="valor3" id="valor3" required>
+      </div>
+
+      <div class="form-group">
+        <label for="valor4">Valor 4:</label>
+        <input type="number" name="valor4" id="valor4" required>
+      </div>
+
+      <div class="form-group">
+        <label for="valor5">Valor 5:</label>
+        <input type="number" name="valor5" id="valor5" required>
+      </div>
+
+      <button type="submit" class="submit-btn">Calcular Suma</button>
+    </form>
+  </div>
+  
+  <div class="navigation">
+    <a href="index.php" class="btn-volver">&larr; Volver a la página principal</a>
+  </div>
+</body>
+</html>
