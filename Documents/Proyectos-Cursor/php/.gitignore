@@ -2,20 +2,54 @@
 .DS_Store
 Thumbs.db
 desktop.ini
+**/.*
+**/.*/
 
 # Ignore user-specific files
 *.log
 *.tmp
+*.bak
 
 # Ignore IDE and editor folders
 .vscode/
 .idea/
 .vs/
+.git/
 
 # Ignore environment and dependency folders
 vendor/
 node_modules/
 .env
+.npm/
 
 # Ignore local configuration
 *.local
+
+# Ignore Windows specific files
+*.exe
+*.mdf
+*.ldf
+
+# Ignore large or unnecessary directories
+3D Objects/
+AppData/
+Downloads/
+Favorites/
+Links/
+Music/
+Pictures/
+Saved Games/
+Searches/
+Videos/
+
+# Specific exclusions
+**/Cisco Packet Tracer*/
+**/Virtual Machines/
+**/Visual Studio*/
+**/.android/
+**/.azure/
+**/.cursor/
+**/.docker/
+**/.dotnet/
+**/.ssh/
+**/.windsurf/
